@@ -1,0 +1,104 @@
+/*****Base Styles*****/
+Body {
+  font-family: 'Montserrat' sans-serif;
+}
+
+/*****Grid*****/
+.full-width {
+  margin:0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 368px;
+}
+
+/*****Header*****/
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+
+/*****Navigation*****/
+nav {
+  float: right;
+  padding: 30px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    color: #77a466;
+    padding-left: 10px;
+    text-decoration: none
+}
+
+/*****Top Section*****/
+#top img#rogue-hero-img {
+    border-top: 10px solid #77a466;
+    border-bottom: 10px solid #77a466;
+}
+
+#top h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#top p {
+    font-weight: normal;
+}
+
+/*****Bottom Section*****/
+#bottom .full-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+#bottom h4 {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#bottom ul {
+  list-style-type: none;
+  padding: 0;
+ }
+
+#bottom ul li a {
+    color:#77a466;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+#bottom p{
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#bottom .reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    padding-left: 30px;
+}
+
+#bottom .contact-us{
+    padding-left: 30px;
+}
+
+/*****Footer*****/
+#footer h2 {
+    text-align: center;
+}
